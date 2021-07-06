@@ -1,5 +1,4 @@
 import subprocess
-import time
 import os
 from os.path import dirname, abspath
 from STTWEBMAIN.models import Videos, Searches, Channels
@@ -8,14 +7,11 @@ from STTWEBMAIN.vtt_to_txt_test import get_sub_info, convert_subtitle
 from STTWEBMAIN.search import video_search
 from datetime import datetime
 import ast
-import threading
 import json
 import requests
 
 
 def download_subtitles(video_id):
-    print('----------------------------')
-    print(video_id)
     downloaded = 0
     STT_dir = dirname(dirname(dirname((abspath(__file__)))))
     vtt_sub_directory = os.path.join(STT_dir, 'subs/vttsubs')
@@ -57,10 +53,7 @@ def add_video_to_search(video_id):
         current_search = video_search(video_id + '.en.txt', search.search)
         if current_search > 0:
             search_results = ast.literal_eval(search.result)
-            print(search_results)
             new_results = [video_id, current_search, video.date, video.title, video.channel]
-            print('--------------------------------------')
-            print(new_results)
             search_results.append(new_results)
             search.result = search_results
             search.save()
@@ -68,7 +61,6 @@ def add_video_to_search(video_id):
 
 def add_channel(video_id, channel):
     if not Channels.objects.filter(channel_name=channel).first():
-        t0 = time.time()
         API_key = 'AIzaSyA1GSZTEbP_EmJ3NRquxAnHblXhsy5o4_c'
         request_url_channel_info = 'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics'
         request_url_video_info = 'https://www.googleapis.com/youtube/v3/videos?id={}&key={}&part=snippet,contentDetails'
@@ -80,7 +72,5 @@ def add_channel(video_id, channel):
         r = requests.get("{}&id={}&key={}".format(request_url_channel_info, channel_id, API_key))
         responseJson = json.loads(r.content)
         profile_img_url = (responseJson['items'][0]['snippet']['thumbnails']['default']['url']).replace('s88', 's100')
-        print(profile_img_url)
         q = Channels(channel_name=channel, profile_img=profile_img_url)
         q.save()
-        print(time.time() - t0)
