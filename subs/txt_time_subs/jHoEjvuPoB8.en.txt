@@ -1,0 +1,83 @@
+00:00:03 here inside this refrigerator at a temperature just a tick above absolute zero
+00:00:08 isolated from the rest of the universe is a quantum computer if you believe the hype this nascent
+00:00:15 technology embodies the promise of the future and has the potential to revolutionize our lives with its turbocharged computation
+00:00:23 but quantum computers aren't the next generation of supercomputers they're something else entirely and
+00:00:30 before we can even begin to talk about their potential applications we need to understand the fundamental
+00:00:35 physics that drives the theory of quantum computing we'll need to dive into another dimension
+00:00:43 smaller and more alien than anything we intuitively understand in the 1980s one of the most important
+00:00:58 physicists of the 20th century encountered a major roadblock richard feynman was hungry for a window into the
+00:01:05 quantum universe but quantum systems by nature are fragile and the information they hold hides from us
+00:01:13 because feynman couldn't directly observe quantum events he wanted to design a simulation it
+00:01:19 quickly became clear that his computer wasn't up to the task as he added particles to the quantum
+00:01:24 systems he was modeling the cost of computation began to rise exponentially feynman concluded that classical
+00:01:32 computers just can't scale up fast enough to keep pace with the growing complexity of quantum calculations
+00:01:40 then he had a breakthrough what if he could design a tool made up of quantum elements itself this
+00:01:45 instrument would operate according to the laws of quantum physics making it the perfect way to probe the
+00:01:51 mysteries of the quantum realm the idea of the quantum computer was born and by dreaming it up feynman had
+00:01:58 started to build a bridge between quantum physics and computer science to understand how
+00:02:04 quantum computing works it's essential to start by understanding what makes a quantum in the first place
+00:02:10 this means that we need to talk about what's at the heart of quantum physics a concept called amplitudes quantum mechanics
+00:02:20 at its core is a change to the rules of probability and this is also where the power of quantum computing comes from
+00:02:27 from this different from these different rules of probability than the ones that we are used to for example
+00:02:33 if you want to know the classical probability of an event say a coin landing tails exactly 10
+00:02:38 times out of 20 you add up the probabilities of all the different ways that event could happen
+00:02:45 that's just common sense but common sense doesn't govern the quantum universe before you measure a subatomic particle
+00:02:52 you can think about it as a wave of probability that exists in a kind of black box a quantum system with many different chances
+00:03:00 of being in many different places amplitudes are closely related to probabilities but they're not probabilities a key difference
+00:03:11 is well probability is always a number from zero to one amplitudes are complex numbers and what
+00:03:17 this means is that they obey different rules if i want to know the total amplitude for something to happen
+00:03:25 i have to add up the amplitudes for all the different ways that it could have happened but when i add up amplitudes i see
+00:03:30 something new which is that a particle might reach a certain place
+00:03:36 one way with a positive amplitude and another way with a negative amplitude and if that happens then those two amplitudes
+00:03:44 can cancel each other out so that the total amplitude would be zero and that would mean that that thing
+00:03:49 would never happen at all this is sort of the central thing that quantum mechanics says about the world
+00:03:56 right that the way that you describe a physical system is by a list of amplitudes and the way
+00:04:01 that a physical system changes over time is by a linear transformation of these amplitudes but how can quantum
+00:04:10 computers use amplitudes to store and manipulate information quantumly this is a qubit it's the basic
+00:04:20 computational unit in quantum computing qubits are like bits in a classical computer but with a crucial difference
+00:04:28 a bit is binary it stores information in strings of binary digits that can only be zero
+00:04:34 or one but qubits are made of subatomic particles so they operate according to subatomic logic
+00:04:41 qubits can be zero one or what we call a linear combination of zero and one this fluid combination of
+00:04:47 amplitudes is at the core of quantum computing before you measure a qubit it exists in a state called superposition
+00:04:55 you can think about it as a quantum version of a probability distribution where each qubit has some amplitude for
+00:05:02 being zero and some amplitude for being one superposition is the reason why it takes a vast number of
+00:05:09 classical bits to describe the quantum state of even a tiny number of particles when two or more qubits are in this
+00:05:16 closed state of superposition they relate to one another through the phenomenon of entanglement
+00:05:22 this means that their final outcomes when we measure them are mathematically related the key concept for understanding how
+00:05:29 quantum computing can be powerful compared to classical computing is what we call quantum entanglement and
+00:05:37 that is the word we use for the characteristic correlations among parts of a quantum system which are
+00:05:46 different from the correlations that we normally encounter in the classical world in ordinary experience you could think of it as like
+00:05:53 a book when you look at the pages one at a time you don't see any information you just
+00:05:59 see random gibberish it's because the information isn't encoded in the individual pages
+00:06:05 but in the correlations among them and to read the book you have to collectively observe
+00:06:11 many pages at once it turns out and this is part of what's so interesting that if you want to
+00:06:17 describe very highly entangled states using ordinary bits it's extremely expensive imagine that you had a
+00:06:23 primitive 10-qubit computer it could store 2 to the 10th power values in parallel
+00:06:28 to describe this entangled configuration with a classical computer you'd need 2 kilobytes or 16 000 bits
+00:06:36 expand to a system with 500 entangled qubits and you now require more classical bits than there are atoms in the known universe
+00:06:43 this is exactly what feynman meant when he said that classical computers weren't scalable for simulating quantum mechanics
+00:06:51 for a quantum computer to be of any use you need to measure information from the qubits to get an output
+00:06:58 the problem is when a quantum system is measured it collapses into a classical state if anything carries away information about whether
+00:07:07 that qubit is zero or one so for example if that information gets recorded in
+00:07:13 some radiation that's escaping from the quantum computer then the effect on the qubit will be exactly
+00:07:21 as if someone had measured it to extract an answer from the quantum system that isn't just a random outcome of probability
+00:07:27 like the flip of a coin we have to use interference you can see interference when waves in a pool hit each other and one wave is above the
+00:07:36 surface and the other wave is below the surface and they hit each other and they cancel each other interference
+00:07:44 is just what amplitudes do when you add them up if something can happen one way with an
+00:07:49 amplitude of a half and another way with an amplitude of minus a half then the total amplitude for it to
+00:07:54 happen would be zero this is what you do in the famous double slit experiment you
+00:07:59 close one of the paths and then you see that now the thing that previously never happened now can happen this is a quantum algorithm
+00:08:09 scientists can harness interference by creating a deterministic sequence of qubit gates
+00:08:15 these cubic gates cause the amplitudes to add up constructively this means that they're mathematically
+00:08:22 guaranteed to boost the probability of seeing one of the right answers you might ask how could you possibly
+00:08:29 concentrate all this amplitude on the right answer when you yourself don't know in advance
+00:08:35 which answer is the right one well you know this is exactly why designing quantum algorithms is so
+00:08:41 difficult and why you know we have a whole field that's been studying it for decades
+00:08:48 since 1994 there have been a few major breakthroughs in quantum algorithms with theoretical applications in fields
+00:08:53 such as cyber security and search optimization but according to most
+00:09:00 experts in the field quantum computers are most likely to be useful for what they were born to do
+00:09:05 when a curious physicist wondered about the deep structure of our world i find quantum computing exciting as a
+00:09:12 way to explore physics now whether that's going to make anybody any money
+00:09:17 whether there will be practical applications in the near term that's still very much an open question
+00:09:22 but at least for physicists it's an exciting time the truth is the most important
+00:09:28 application i believe of quantum computers is something that we don't know yet i'm sure that once we have a quantum

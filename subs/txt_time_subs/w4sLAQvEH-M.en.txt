@@ -1,0 +1,158 @@
+00:00:02 these are bacteria growing into increasingly concentrated antibiotics the bacteria stop growing when they hit
+00:00:09 the first antibiotic strip but then a mutant appears capable of surviving in the antibiotic
+00:00:15 then another mutation occurs and now the bacteria can survive 10 times the concentration then
+00:00:23 a hundred times and finally after just 11 days of evolution these bacteria can survive antibiotics a
+00:00:29 thousand times stronger than what would have killed them at the start you're watching evolution in action
+00:00:36 this video was sponsored by bounty reminding you that a hygienic way to clean up messes and spills
+00:00:41 is with paper towel now bacteria are everywhere especially in damp places like dishcloths so i'm going to do a little
+00:00:46 experiment where i add some fluorescent powder to this dishcloth to represent bacteria without
+00:00:53 telling anyone in my household and then i'm going to come back later to see where
+00:00:59 all of this powder ends up but for now i'm off to michigan to see the world's longest running evolution experiment
+00:01:13 this is richard lenski he started the experiment 33 years ago and along with a team of colleagues he
+00:01:18 has kept it going even on weekends ever since in this lab are 12 flasks of live e coli bacteria
+00:01:30 they are the lucky few the ones that have survived over three decades of evolution in a lab
+00:01:38 so there are 12 long term lines in 1988 a single common ancestor spawned these 12 separate populations
+00:01:45 and ever since that day they have been growing and dividing independently so how have they evolved
+00:01:52 there are other long-running evolution experiments like since 1896 scientists at the university of illinois
+00:01:58 have selectively bred corn but they get only one generation per year whereas these bacteria go through six or
+00:02:06 seven generations a day so after 33 years the bacteria in these flasks are generation
+00:02:15 74 500. if those were human generations it would represent 1.5 million years of hominid evolution what we do to start
+00:02:24 the experiment is we dilute a large population of bacteria onto a petri dish and each individual
+00:02:30 cell makes a colony and so then we take a little bit from one colony to start one population a
+00:02:35 little bit from another colony to start another population but effectively they all started from individual
+00:02:42 cells and that's important because it means if we see the same thing happening in replicate populations it's
+00:02:49 not because they started out with the same genetic variants and natural selection just
+00:02:55 fished out the same thing over and over you actually had to have independent mutations that would give rise to
+00:03:02 these competitive advantages whatever it might be that would produce the repeatability across the the
+00:03:08 12 replicate populations the lab environment is very different from the one the bacteria are used to
+00:03:14 it's much simpler there are no other organisms present they're kept at 37 degrees celsius and
+00:03:19 they live in the same solution a mixture including glucose potassium phosphate citrate and a few other things their
+00:03:26 only carbon source is glucose which is limited above all else consuming that glucose and converting it
+00:03:34 to offspring replicating as fast as possible has been essentially what we seem to be selecting for
+00:03:41 every day in each flask the bacteria divide six or seven times which increases their numbers a hundred fold
+00:03:48 normally we think of generations as being limited by the time that has elapsed but in the case of these bacteria
+00:03:54 they're limited by the resources available to them if they had 10 times the solution they
+00:03:59 would increase their numbers an additional 10 times then almost every day for the past 33 years
+00:04:08 this transfer process has taken place solution from each flask is transferred to a sterile new flask
+00:04:17 containing the same solution it essentially dilutes the bacteria a hundred fold
+00:04:23 this gives them the space and resources they need to grow and divide again increasing their population a hundred
+00:04:29 times before this same process is repeated the next day and then the day after that and the day
+00:04:35 after that even on weekends this process has been going on for over
+00:04:42 three decades what happens to bacteria that are not transferred to the new flasks the 99 percent
+00:04:49 that's the autoclave room what happens in the autoclave room every day 99 of the e coli meet their
+00:04:56 demise in this horrible room is this like a bacterial crematorium yeah yeah exactly
+00:05:03 you can imagine if the scientists didn't do this but instead gave all the bacteria a hundred times more solution
+00:05:08 to grow on every day well the experiment would soon become unmanageable on day two you would need
+00:05:16 a cubic meter of solution but by day 13 the experiment would be 10 times the volume of earth
+00:05:22 and by day 42 the experiment would fill up the entire observable universe to me it seems like
+00:05:29 the whole idea of genetics is for them to stay constant and for mutations to be rare
+00:05:34 yes yet in your experiment it seems they're not rare so we estimate that in our bacteria
+00:05:43 only about one out of maybe a hundred or one out of a thousand cells will have even a single mutation so
+00:05:50 that's not very much by contrast in humans it's estimated that each one of our offspring has perhaps
+00:05:57 10 20 50 new mutations so the bacteria are extremely conservative but there are also billions of them
+00:06:03 in even a tiny flask and so if you have a chance in a thousand of mutating and you have a billion individuals
+00:06:09 then every day in one of these flasks we might have a million new mutations so that's a lot of
+00:06:15 variation on which natural selection can act maybe half of those mutations have no effect whatsoever
+00:06:22 on the bacteria's ability to grow and thrive in that particular environment they might be mutations that would
+00:06:27 matter out in the great outdoors but this is a very simple environment maybe those genes aren't even expressed
+00:06:33 another half of the mutation speaking very very roughly might actually be deleterious mutations they make the bacteria
+00:06:40 an inferior competitor but there's maybe out of those million mutations that occur every day
+00:06:45 maybe there's 10 maybe there's 100 maybe there's a thousand of them that actually change something in the cell that gives
+00:06:52 the bacteria a competitive advantage over their progenitors and those then grow over the course of
+00:06:57 that day then every day 99 percent of the population is eliminated
+00:07:03 this lucky one percent prevails and if those lucky one percent include one of the guys from the previous day that was growing
+00:07:10 at 10 faster than the other guys it has a higher probability of contributing to that next flask the next day's flask
+00:07:18 and in the fresh medium and it will continue to grow faster at a ten percent clip and that compounds
+00:07:24 by an exponential process so the mutations you know are really rare when they first occur and many of
+00:07:29 them are lost but once they get common if they have that competitive advantage
+00:07:34 they'll just sweep through the population but how do you know that the bacteria
+00:07:40 actually have a competitive advantage i mean how can you tell that they're getting better suited to their environment
+00:07:45 well this is where one of the unique properties of bacteria come in they can be frozen for long periods of
+00:07:51 time and then revived and so they're stored in suspended animation here
+00:07:58 so these are the racks that contain the frozen samples of the bacteria from the various generations
+00:08:07 every 500 generations roughly 75 days they freeze a sample of each population by freezing previous generations lenski
+00:08:14 and his team have a frozen fossil record so our samples from over 30 years ago
+00:08:21 remain perfectly viable and so that gives us an ability to do what i like to call time travel
+00:08:27 we can literally compare organisms that lived at different points in time so we can compete bacteria from
+00:08:32 generation 70 000 against their ancestor that's right the way they measure fitness is by
+00:08:39 competing the current generation of bacteria against older generations it's like a strange bacteria fight club
+00:08:49 they thaw out the old generation mix it into a flask with the current generation and then played out a sample of the
+00:08:54 solution to see the relative abundances of the two populations at the start then they incubate the flask for a day
+00:09:01 and then plate them out again and the point is to compare their relative growth rates
+00:09:06 which generation was better able to utilize the glucose and divide faster well how the heck do
+00:09:12 you tell an evolved bacterium from its ancestor do they say wave little flags at you and say hey i'm the evolved guy
+00:09:18 and of course they don't but what we have is this color marker in the embedded in the experiment
+00:09:25 so six of our populations on a certain kind of agar plate make red colonies and six of them
+00:09:31 make white colonies and we have one of version of the ancestor that makes red colonies and one that makes white colonies we can compete
+00:09:38 one of the red evolved populations against the white ancestor or one of the white evolved populations
+00:09:43 against the red ancestor and we can distinguish them in this case it's clear that the evolved red population
+00:09:51 outcompeted their white ancestor now to determine the winner all of the colonies are counted by hand
+00:09:58 so what was the earliest sort of big findings from the experiment the first thing we found not that there
+00:10:03 was any doubt about it but it's one of the most direct demonstrations of darwinian adaptation
+00:10:09 by natural selection you can imagine yes they're getting to be better competitors over time
+00:10:15 it's a common observation in other evolution experiments that evolution in a new environment gets
+00:10:20 off to a rip-roaring start and then tends to slow down over time and so we repeated that observation and
+00:10:26 i imagined that the long-term lines would actually sort of flatline at some point
+00:10:30 and i actually thought about stopping the experiment but i got wise advice from colleagues and from my wife madeline
+00:10:37 let's keep it going and so i agreed to that and it's a good thing he did because in 2003 the bacteria started
+00:10:43 doing something remarkable one of the 12 lineages suddenly began to consume a second
+00:10:50 carbon source citrate which had been present in our medium throughout the experiment it's in the
+00:10:57 medium as what's called a chelating agent to bind metals in the medium but e coli going
+00:11:03 back to its original definition as a species is incapable of that but one day we found one of our flasks
+00:11:09 had more turbidity i thought we probably had a contaminant in there some bacterium had gotten in
+00:11:14 there that could eat the citrate and therefore had had raised the turbidity we went back into the freezer
+00:11:20 and restarted evolution we also started checking those bacteria to see whether they really were e coli
+00:11:25 yep they were e coli were they really e coli that had come from the ancestral strain yep
+00:11:31 so we started doing genetics on it it was very clear that one of our bacteria lineages had essentially i like to say
+00:11:36 sort of woken up one day eaten the glucose and unlike any of the other lineages discovered that
+00:11:41 there was this nice lemony dessert and they begun consuming that and getting a second source
+00:11:49 of carbon and energy zach was interested in the question of why did it take so long to evolve this
+00:11:54 and why has only one population evolved that ability he went into the freezer and he picked
+00:12:00 bacterial individuals or clones from that lineage that eventually evolved that ability
+00:12:06 and then he tried to evolve that ability again starting from different points so in a sense it's almost like well it's like
+00:12:11 rewinding the tape and starting let's go back to the minute five of the movie let's go back to
+00:12:17 minute 10 of the movie minute 20 of the movie and see if the result changes depending on when we did it
+00:12:23 because this citrate phenotype there were essentially two competing explanations for why
+00:12:29 it was so difficult to involve evolve one was that it was just a really rare mutation it wasn't like one of these just change
+00:12:35 one letter it was something where maybe you had to flip a certain segment of dna and you had to have exactly this
+00:12:41 break point and exactly that break point and that was the only way to do it so it was a rare event
+00:12:45 but it could have happened at any point in time the alternative hypothesis is that well what happened
+00:12:55 was a series of events that made something perfectly ordinary become possible that wasn't possible at
+00:13:00 the beginning because a mutation would only have this effect once other aspects of the organism had changed
+00:13:09 to make a long story short it turns out it's such a difficult trait to evolve because both of those hypotheses are true
+00:13:16 the experiment uncovered other surprising findings like instead of the bacteria getting
+00:13:21 more numerous over time they actually decreased in number but each individual bacterium got larger
+00:13:30 six of the twelve populations evolved hypermutability mutation rates a hundred times higher than their ancestors
+00:13:37 but these populations subsequently acquired additional mutations that brought the mutation rate back down
+00:13:42 i mean it's advantageous to be able to evolve faster than others but if the mutation rate is too high then
+00:13:48 offspring have too many deleterious mutations but maybe the most surprising finding of all
+00:13:56 is what didn't happen this view i had that they were flatlining turned out to be quite false
+00:14:01 i had sort of imagined a very simple mathematical model you can create something called a
+00:14:06 rectangular hyperbola i guess which has a initial high slope and then reaches an asymptote
+00:14:13 but they're equally simple models there's a model that also has just two parameters called a power
+00:14:19 law model that says things slow down but it doesn't have an upper bound it says just keep going for time immemorial
+00:14:25 and things will just keep going faster but a slower and slower rate of further improvement and it turned out
+00:14:30 that model actually fits our data better than that original model i had imagined and not
+00:14:37 only does it fit it better okay you say statistics science you know fitting curves it actually predicts the
+00:14:43 future and that's what's really cool because the original model if you give it say just
+00:14:48 5 000 generations worth of our fitness data and ask it to predict into the future it says the asymptote is here but then
+00:14:55 when we get more data no the bacteria are up here they've passed that asymptote
+00:15:00 whereas this power law model which says things are slowing down but never reaching an asymptote
+00:15:05 we give it just one tenth of our data from the past and it projects very accurately out to
+00:15:10 fifty thousand and even sixty thousand generations when we last looked it predicts sort of the future
+00:15:16 course of the evolutionary trajectory and to me that's kind of profound and it sort of changed
+00:15:21 the way i look at this experiment and even a little bit how i look at life on earth i mean life on earth
+00:15:28 doesn't stop evolving we know that and we know that but we think that's oh that's because they're asteroid impacts
+00:15:33 that's because of human impacts that's because they're viruses that are attacking their hosts and that
+00:15:38 the co-evolution is causing evoluti is causing evolution to never stop the world is always changing so of
+00:15:44 course evolution never stops and that is a hundred percent true but what our
+00:15:50 experiment suggests is that even in the absence of environmental change there are so many opportunities of
+00:15:57 smaller and smaller magnitude to continue to make progress that in fact progress
+00:16:04 probably would never stop even in a constant environment to me it's one of the reasons to keep
+00:16:10 this experiment going does this model continue to predict the unfolding of the future fitness trajectory
+00:16:20 okay now the conclusion of the experiment where i look for that fluorescent powder using
+00:16:26 this uv torch whoa there is a lot of fluorescent powder around here
+00:16:36 obviously there's a lot in the sink  but also here on the tap looks like someone wiped down
+00:16:41 the handle and the faucet oh check out the dishwasher yeah and on the handle this is a great
+00:16:52 way of visualizing how dishcloths can spread bacteria around the house what as a dad i encounter lots of big messes
+00:17:07 and sticky hands and slimy faces so when there is a mess or spill in my kitchen i choose to clean it up with bounty

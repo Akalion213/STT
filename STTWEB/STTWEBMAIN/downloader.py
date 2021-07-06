@@ -1,8 +1,8 @@
 import subprocess
 import os
 from os.path import dirname, abspath
-from STTWEBMAIN.models import Videos, Searches, Channels
-from STTWEBMAIN.tagging import generate_tags, generate_similar_by_tags
+from STTWEBMAIN.models import Videos, Searches, Channels, ApiKeys
+from STTWEBMAIN.tagging import generate_tags, generate_similar_by_tags, calculate_top_tags
 from STTWEBMAIN.vtt_to_txt_test import get_sub_info, convert_subtitle
 from STTWEBMAIN.search import video_search
 from datetime import datetime
@@ -60,17 +60,20 @@ def add_video_to_search(video_id):
 
 
 def add_channel(video_id, channel):
-    if not Channels.objects.filter(channel_name=channel).first():
-        API_key = 'AIzaSyA1GSZTEbP_EmJ3NRquxAnHblXhsy5o4_c'
+    channel_to_add = Channels.objects.filter(channel_name=channel).first()
+    if not channel_to_add:
+        API_key = ApiKeys.objects.filter().first().api_key
         request_url_channel_info = 'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics'
         request_url_video_info = 'https://www.googleapis.com/youtube/v3/videos?id={}&key={}&part=snippet,contentDetails'
 
         r = requests.get(request_url_video_info.format(video_id, API_key))
-        responseJson = json.loads(r.content)
-        channel_id = responseJson['items'][0]['snippet']['channelId']
+        response_json = json.loads(r.content)
+        channel_id = response_json['items'][0]['snippet']['channelId']
 
         r = requests.get("{}&id={}&key={}".format(request_url_channel_info, channel_id, API_key))
-        responseJson = json.loads(r.content)
-        profile_img_url = (responseJson['items'][0]['snippet']['thumbnails']['default']['url']).replace('s88', 's100')
+        response_json = json.loads(r.content)
+        profile_img_url = (response_json['items'][0]['snippet']['thumbnails']['default']['url']).replace('s88', 's100')
         q = Channels(channel_name=channel, profile_img=profile_img_url)
         q.save()
+    else:
+        calculate_top_tags(channel_to_add)

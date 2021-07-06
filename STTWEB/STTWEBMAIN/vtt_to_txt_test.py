@@ -31,7 +31,7 @@ def convert_subtitle(filename):
         text = []
         for line in vtt_file:
             if len(line) > 2 and '<' not in line and '[Music]' not in line and '[Laughter]' not in line\
-                    and '[Applause]' not in line:
+                    and '[Applause]' not in line and '[music]' not in line:
                 text.append(line)                  # Deletes empty lines, lines with <c> format, [Applause] etc.
 
     text2 = []

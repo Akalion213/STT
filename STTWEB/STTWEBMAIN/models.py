@@ -34,3 +34,7 @@ class Channels(models.Model):
     profile_img = models.CharField(max_length=100, default='')
     managed = models.IntegerField(default=0)
     top_tags = models.CharField(max_length=1000, default='')
+
+
+class ApiKeys(models.Model):
+    api_key = models.CharField(max_length=200, default='')

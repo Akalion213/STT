@@ -1,0 +1,317 @@
+00:00:02 so you may have noticed i have a lot of tools in fact my wife tells me you have a problem and everyone else tells me
+00:00:12 they want a shop tour but i just can't show you all my tools without some results so here's what we're gonna do i'm gonna
+00:00:17 design and fabricate a catapult with every machine in my shop that's nine catapults and they're all
+00:00:22 gonna be totally different this will let me show you the machines and how they results
+00:00:32 i also see some very exciting ways to prank my wife what's in the box i have all these tools
+00:00:38 so i can make whatever pops into my head as quickly as possible they're basically the conduit from my
+00:00:43 brain to the physical world and it's awesome each of the catapults that i'm going to make corresponds to a different part of
+00:00:48 the shop i have tools for working with metals and plastics additively and subtractively
+00:00:55 and a whole lot of other stuff this should be cool because it'll show just how many ways you can solve a problem
+00:01:00 thinking this through i'm gonna have to stretch the definition of the catapult really far this is definitely a catapult right
+00:01:07 so here's my rules it shoots half inch steel bearings this is the premier size to take an eye
+00:01:13 out all of the important parts need to be made on the machine so if i was making a 3d printed catapult
+00:01:19 i couldn't just 3d print the trigger for a potato cannon i'm going to be trying to keep the danger level to about
+00:01:23 a 3 out of 10. we'll see how that goes i had try not to get too carried away
+00:01:30 but i've already broken that rule so it's gone i really should stop saying catapult but i've said it too many times
+00:01:37 so they're catapults we're going to start simple with some of the more basic tools i'm limiting myself
+00:01:43 to the bandsaw the drill press and the belt sander for all of these designs i'm using a
+00:01:46 really important tool called computer-aided design although most people just call it cad
+00:01:52 i'm using autodesk inventor to design everything in the computer before i build anything doing this means that
+00:01:57 everything usually fits together and it also lets me do things like calculating the strength i came up with
+00:02:03 this kind of wacky handheld catapult and i'm using the 3d model to make paper templates so that i can cut everything
+00:02:08 out accurately this is a really powerful technique you can make almost anything this way
+00:02:14 it just takes a while i'm using a little portable bandsaw on a stand that i made and this thing is incredible i use this
+00:02:20 on literally every project the drill press and belt sander are cheap
+00:02:25 imports from harbor freight i've had them for over a decade and they just won't die i kind of wish they would so i
+00:02:29 could get a better one you can do an incredible amount of things with these machines they are
+00:02:35 definitely the most bang for buck way to get into making these kinds of things that i know
+00:02:39 i invested in a high quality eight inch vise early on and i have zero regrets this thing is amazing i'm also using it
+00:02:46 to do some low end blacksmithing a little glue and a couple screws and we've got a catapult it looks like i
+00:02:51 should have one of those little white looney tunes surrender flags on it doesn't it
+00:02:56 all right let's try it out it like this ball goes here i don't even know how to this thing turned out really cool
+00:03:07 because i love everything that i make i asked my wife to give an impartial score really a four if this was a competition
+00:03:16 for a food fight tool then it would be higher you're lucky it wasn't loaded
+00:03:23 breaking glass isn't the most scientific test but it's the funnest test this catapult is just impossible to aim
+00:03:35 well that was anticlimactic let's make the next catapult i am so jealous of kids these days
+00:03:42 growing up with their fancy 3d printers when i was a kid all i had was a corded drill and a rusty chisel
+00:03:48 and i liked it anyway i'm gonna make a catapult with my fancy 3d printers i came up with a design that's fully 3d
+00:03:54 printed including the spring plastic doesn't really want to be a powerful spring so i have 18
+00:04:00 kind of weak plastic springs working together to make one mighty spring this is one of the 3d
+00:04:04 printers i'm going to be using it's called a form3 it's a resin printer made by formlabs
+00:04:09 and as a fun little fact i was actually responsible for developing this machine that's what i was doing before i started
+00:04:14 making youtube videos this machine has a tank full of liquid plastic which it shines a very tiny
+00:04:20 laser spot at and wherever the light touches the plastic it triggers a chemical reaction that
+00:04:24 turns it into a solid the machine will steer the laser around to cure a very thin layer
+00:04:29 and then it'll move that layer up and then cure another very thin layer on top of the previous layer
+00:04:33 if you repeat that a bunch of times eventually you get a solid thing the parts come out sticky so you wash
+00:04:39 them off in a bath of basically rubbing alcohol these weird structures that the parts are on are automatically generated supports
+00:04:45 this is actually an algorithm that i spent a lot of time on they're super optimized so they just break off
+00:04:52 and you have a nice part if i could only have one tool in the shop this machine would probably be it so i
+00:04:58 don't think i've shown this in any videos this is an sls machine it's called a fuse one it's also made by
+00:05:04 form labs it prints things out of nylon powder and the parts are just fantastic i said this was an sls machine
+00:05:09 but i think the more correct technical term for this is an absolute unit it works by
+00:05:14 spreading out a very thin layer of nylon powder and then it melts together the areas that it wants to be solid using a laser
+00:05:19 and just like the other machine if you stack a bunch of these layers on top of each other
+00:05:28 the parts come out surrounded in powder and you sift through it like an archaeologist this machine collects all the unused
+00:05:35 powder and then recycles it back into the machine so you don't waste it if something i want to make can be done
+00:05:41 on a 3d printer that's what i'm going to do they take the least amount of work by far and they can also do the widest
+00:05:47 variety of shapes of any tool in my shop the reasons that i won't use a 3d printer is i need something big
+00:05:53 very accurate or very strong i also want to mention that i did not buy this it was given to me and that's actually
+00:05:59 true of almost all the big expensive tools in my shop this has been one of the best things
+00:06:03 about having a youtube channel and it's great because you win iowin and the tool maker wins when
+00:06:07 something awesome gets made and i'm so grateful to be in this position there is just way too much to show here
+00:06:16 if you want more details keep an eye on so this one's pretty similar to the last one except for that it's totally different
+00:06:24 you it like this put in the ball and you're ready to fire these things are just impossible to aim
+00:06:34 that was kind of weak iv four this is better than a four eighteen leaf springs
+00:06:40 or one two three yeah eighteen leaf springs i'd have to know what a leaf spring is will it break the glass yeah i didn't
+00:06:52 think so all right next up we're gonna be looking at the cnc router it's a tormach 24r
+00:06:59 it's basically a wood router attached to a robot that can move it around to cut out whatever shape you want
+00:07:04 it's really good at making big things out of sheets it cuts up to 2x4 feet i use it to make all kinds of more
+00:07:10 precise wood stuff and especially explosive bats i think a trebuchet would be perfect for this router
+00:07:17 i was chatting with patrons on my discord and someone brought up the really good idea of a floating arm trebuchet
+00:07:23 so that's what we're gonna do i'm holding the wood in place with plastic nails so that i don't break the bit
+00:07:29 when i hit one i love using the router because it's really easy you put your wood in it cuts the parts
+00:07:34 out and that's pretty much it and those plastic nails just sheer in half with a hammer tap
+00:07:38 this whole thing goes together kind of the way i designed this is just a little bit too narrow here we go
+00:07:54 are you just messing with me now let's just fire it with 10 pounds hopefully it doesn't break two one
+00:08:12 we won't get to find out if it would have broken the glass milling machines take a lot of work to
+00:08:24 use but they're probably the most satisfying tool in my shop i've really been looking forward to
+00:08:30 designing a catapult for these machines so one thing led to another and i accidentally made something
+00:08:35 kind of insane this is a centrifugal catapult that fires half inch steel ball bearings full auto this is way overkill for
+00:08:43 demoing my mills but i just couldn't help myself it's so cool so i'm going to build it and show
+00:08:47 how the mills work but there's probably going to be an entire video just about the awesome things you can do
+00:08:52 with this kind of machine the general idea is that you have a spinning arm that flings the balls before we can machine
+00:08:59 anything we have to cut our stock out the little band saw i showed earlier is a total workhorse but when you want to
+00:09:05 cut a slice off something like this it just isn't going to happen so let's talk about my horizontal bandsaw it's a
+00:09:11 grizzly g0613 and i love it this thing is perfect when i have thick stuff
+00:09:16 long stuff and when i need an accurate square or angled cut this design is awesome because the
+00:09:22 entire vise rotates and you can cut really accurate miters this is my first cnc machine i actually
+00:09:29 made it in an apartment years ago and it doesn't get much use these days because i have bigger and
+00:09:34 better machines but building this i learned so much about cnc
+00:09:40 i really recommend it it is a fantastic baptism by fire computer-controlled cnc machines are
+00:09:46 amazing but human-controlled manual mills are also amazing this is my precision matthews 935
+00:09:53 it's called a nemil because of the configuration of all the pieces it's kind of a standard layout
+00:09:58 machines like this are great because you can just throw stuff in them and start cutting you don't have to go up to computer and
+00:10:04 program the moves that it's going to do it's super fast for a certain type of work that i do all the time
+00:10:10 it has knobs that you turn to move the thing you want to cut in three dimensions and you pretty much just force the
+00:10:15 cutter into the metal and it cuts through it like butter did you know you can cut metal with a
+00:10:19 sharp knife that's exactly what these machines are doing they're spinning around knife that just
+00:10:24 cuts through the metal one of the most important thing for milling machines is getting the speed
+00:10:29 and depth that the knives are cutting correct people call these feeds and speeds whenever i show people the mill they
+00:10:34 think that the part is going to be really hot but it's not most of the heat goes into
+00:10:39 these shavings which are called chips but they're not edible there are tons of different tools and cutters to do
+00:10:44 different things in the mill but i'm not going to get into those i'm using the mill to make a bunch of the
+00:10:47 simpler parts and this part which you would normally make on a lathe
+00:10:53 i have two lathes but according to my rules i can't use them but i can use my mill as a lathe which
+00:10:57 is a nice trick to know sometimes can get you out of a jam when i need metal parts for a project
+00:11:04 which is like every project ever i'm using this machine it's a tormach 1100 mx
+00:11:10 it's a cnc mill so it's just like the manual mill except for there's a computer turning the knobs instead of me
+00:11:16 computers are fast and precise so they can do stuff that i just can't do with my hands the liquid
+00:11:21 that it's spraying is called coolant this lubricates the tool and keeps metal from sticking to it and is really
+00:11:26 important for washing chips away so they don't build up and break your tool it holds 10 tools that it switches
+00:11:32 between automatically which is amazing because i can just put metal in it and it'll make the part for
+00:11:37 me while i do other stuff it also has this rotating axis that really reminds me of cooking something
+00:11:43 on a spit it'll spin your part as it cuts and it'll allow you to do all kinds of fancy things
+00:11:47 you can get machines that have a rotary axis like this stacked on top of another rotary axis
+00:11:53 it sounds kind of crazy but you can do some incredible things with that setup i don't know if you're out there haas
+00:12:00 but if you can hear me i'd love to talk about a umc 500 i can at least dream right this thing is
+00:12:05 so over engineered i think in french they call this a resistance piece
+00:12:11 hold on why is there a 3d printed part here i mean if you're going to cheat you you spin the launcher mechanism with
+00:12:22 this crank and drop a ball in okay it's not at all where i was expecting it to fire
+00:12:42 more chooch means more power and i totally agree with that score although it's not really a score but it will be
+00:12:49 fixed in a future video i'm going to attach a high power motor to this and do some really cool things
+00:12:55 the other thing that it really needs is a timing mechanism so the balls go in at the right point of the rotation
+00:13:01 right now they go in at a random time and shoot out at a random point we need them to always come out of the
+00:13:06 end of the tube at the same time so that they fly consistently i'm not even going to try to hit the glass i could barely hit
+00:13:13 the foam metal joining and cutting is a really important part of my shop
+00:13:21 it allows me to make big strong things really fast i'm going to weld up a steel replica of
+00:13:26 da vinci's catapult design before we can get to welding i have to cut out a lot of thick steel
+00:13:32 and we are going to use a tool that would have absolutely blown da vinci's mind
+00:13:45 this is plasma cutting it is raw power cutting through steel like butter the way they do this is
+00:13:51 super cool plasma cutters use electricity to make a super hot stream of ionized gas
+00:13:57 which is called a plasma plasma conducts electricity which allows an arc to form between the torch and the metal that you
+00:14:03 want to cut the energy from the ark melts the metal and the focused blast of ionized gas
+00:14:08 shoots the molten metal away add in some computer control and you can cut out whatever shape you want
+00:14:15 this is a tormach 1300 pl that cuts up to four foot by four foot and i cannot overstate how superior this
+00:14:21 is to cutting metal with a grinder or any other way so this is the torch and this is what
+00:14:26 does the cutting you can actually move this around by hand but here i have it mounted to this
+00:14:31 gantry which moves it around and cuts out whatever shape you want the whole thing is powered by a
+00:14:35 hypertherm powermax power supply i designed and built a plasma cutter before this one but it isn't with us anymore
+00:14:41 it's watching over the new machine from and now the fun part i'm welding everything with a vulcan protig 200 from
+00:14:52 harbor freight it is surprisingly good but you can't get it as far as i can tell harbor
+00:14:57 freight got sued so hard by lincoln electric that they just deleted the thing from the internet
+00:15:01 it's a tig machine which stands for tungsten inner gas which basically describes how the
+00:15:06 machine works this pointy rod is the tungsten it's charged with electricity which makes an arc between it and the material
+00:15:12 you want to weld this delivers so much energy that it melts the metal almost instantly
+00:15:17 although most metals have this annoying problem when you get them very hot they rust super fast to avoid this the
+00:15:23 machine flows a bubble of inert gas around the weld in my case it's argon argon is a noble gas which
+00:15:30 means aside from its aristocratic lineage does not want to react with anything unlike oxygen which will react with
+00:15:35 pretty much anything that moves since argon won't react with stuff you don't get oxidation tig doesn't really
+00:15:41 fume or smoke which is great for the basement when you're welding parts the heating and cooling tends to distort them
+00:15:48 so my welding table has a very thick top which you can clamp the parts to and this helps minimize the warping all
+00:15:53 these holes which make it look like a precision block of swiss cheese are made to accept drop in clamps and
+00:15:59 other fixtures which makes setup super fast and easy if you're wondering my welding table is called a rhino cart
+00:16:06 to make the catapult spring i'm using this cool tool called a ring roller and i think that's as much as i'm going to
+00:16:15 be able to do if you put your hand in front of this knit one off oh gosh
+00:16:30 yeah that's what i'm saying that da vinci was one smart guy with a few tweaks this thing could be
+00:16:36 really powerful we all know what's going to happen the i know the davinci catapult is fast but
+00:16:45 i want to know how fast and i have the perfect tool for the job so there's eight of these cameras
+00:16:50 hanging from the ceiling throughout my shop and these are motion tracking cameras they're made by a company called optitrack
+00:16:56 and you've probably seen these used in video games or movies you see people wearing silly suits with white dots all
+00:17:01 over it that's for these cameras so the way that these work is they flash a really bright
+00:17:06 light that we can't see it's invisible to humans but the cameras can see it
+00:17:11 and then anything that's reflective that light bounces it back to the camera this allows the camera to very reliably
+00:17:18 see the things you want to track if you have multiple cameras you can triangulate where that thing is in space
+00:17:23 this is the same thing that your eyes do to figure out how far away stuff is these things are super fast super
+00:17:28 accurate and the next project i'm working on uses the heck out of them i think it's
+00:17:33 very fitting that you calibrate the tracking system by basically waving a magic wand
+00:17:38 all right the system is up and tracking a ball as i move around on the table all right this is pretty cool this is
+00:17:48 the path that the ball took the catapult zinged it up it bounced off the foam went into the ceiling and then came out
+00:17:52 over here and fell to the ground we hit about 38 miles per hour
+00:17:58 it traversed my workbench in 150 milliseconds that's how long a blink takes machining is awesome although starting
+00:18:10 with a block of material and removing everything that isn't your part is pretty slow and expensive this is why
+00:18:17 i love plasma cut and folded sheet metal you're only using the material that you need to make the part and it's really
+00:18:23 fast and easy to make big strong things for example an all metal crossbow this crossbow has been designed to be folded
+00:18:28 out of thin sheet metal kind of like origami my cad software can flatten it out into a pattern that i cut
+00:18:34 on the plasma cutter this is basically the same as the davinci catapult when you cut thin sheet metal a bit of
+00:18:40 the molten metal tends to stick to the bottom of the parts i'm grinding it off at my downdraft
+00:18:45 there's a powerful metal dust collector attached to it this sucks all the metal particles away
+00:18:50 so they don't go into my lungs i find it hard to spend toolbox on safety stuff but
+00:18:55 it is important and it turns out my wife agrees finding a way to classify a tool is safety critical is the best way to
+00:19:01 sneak it by my wife isn't that amazing just look at the hot dog why don't you just not put your hand
+00:19:06 in the table saw while we're on the topic of safety let me show you what i do for first aid
+00:19:11 if you're gonna have big tools you have to be prepared for some big injuries tourniquet just in case this probably
+00:19:17 only applies to my shop but if i have a chest wound this will seal it if i'm having a really bad day
+00:19:24 it'll also seal the exit wound so you've got a skin stapler which i hope my wife will never have to
+00:19:30 use on me but it is pretty easy to catch your scalp on the stuff yeah this is what i use
+00:19:35 whenever my wife talks about one of my projects this is super glue for closing up wounds way better than bandages
+00:19:43 this is actually made for animals not humans but i think it's basically the same stuff
+00:19:47 and it's a lot cheaper don't quote me on that i'm not a doctor get the human stuff the vet stuff is a
+00:19:52 bad idea i'm an idiot and i'm going to be getting the human stuff probably
+00:19:59 bending sheet metal accurately is really hard to do which is why i have such a ridiculous bender
+00:20:04 the technical term for this is a break and it's made by grizzly it'll do 16 gauge steel
+00:20:11 up to 50 inches wide and this thing is phenomenal the amount of pain i went through before i got this thing
+00:20:18 is just off the charts getting the bender is most the work once you have it it's pretty simple to use
+00:20:23 you take whatever it is you want to bend and clamp it in the break and then pull this pivoting part up to whatever bend
+00:20:28 angle you want you can also take these fingers out to make clearance for bends that you
+00:20:33 couldn't make otherwise and that's it that's my first secret to sheet metal success
+00:20:38 i normally wouldn't give you the second secret until you recruit at least three people to the program but i'm feeling generous
+00:20:45 the secret is spot welders i think spot welders are just completely underrated they are super
+00:20:50 useful they're affordable but i don't see anyone using them i just don't understand it
+00:20:55 so let me show you you take two pieces of metal clamp them in the spot welder press the trigger and you're done really
+00:21:01 high heat a bit of pressure and two become one just like marriage this will join all the pieces of the
+00:21:06 crossbow together super fast i just love that even the string is sheet metal
+00:21:14 this one you have to it with a glove on you never want to get your fingers in
+00:21:20 front of it it seems to have a lot less power than i calculated five i can't believe you give that a
+00:21:32 five as i said for style it has 18 stacked leaf springs my wife isn't impressed with i'm sure
+00:21:40 these ones are all touching each other so they all have to rub to fire and you lose a lot of energy i think
+00:21:45 i think it shows what you can do with sheet metal pretty well though it's only cool if you can break your house windows
+00:21:53 that's too bad i thought this one was cool this next catapult is designed for laser cutting laser cutting is a really fast
+00:22:01 really useful prototyping tool before 3d printers laser cutters were the king my goal for this one is to make
+00:22:07 a wrist mounted catapult so this fancy glass box this is my laser cutter it's a glowforge pro
+00:22:14 it cuts soft materials like wood and plastic with a beam of focused light the focused light is delivered by a co2
+00:22:21 laser this is basically a glass tube filled with co2 with electrical connections on either end
+00:22:26 when electricity is applied it causes some of the co2 to emit light kind of like a tiny light bulb but
+00:22:32 what's special about this glass tube is that it has mirrors on either end some of this light will go towards the
+00:22:37 mirrors and start bouncing back and forth between them and sometimes something interesting
+00:22:41 happens when the light goes by another co2 molecule the co2 molecule will emit more light
+00:22:45 which will be going in the same direction as a light that's already bouncing back and forth between the mirrors
+00:22:50 this is called stimulated emission and it's basically what the word laser stands for
+00:22:55 so you get this enormous build up of light bouncing back and forth between these mirrors
+00:22:59 if you were to figuratively poke a little hole in one of the mirrors some of this light will come through and
+00:23:04 it will be an intense beam of light all going in the same direction which doesn't really happen in nature which is
+00:23:10 why lasers are so special so whenever you point this laser at something it just goes what the heck
+00:23:16 and disappears in a puff of smoke wherever the laser's touching it you really don't want to breathe this
+00:23:21 smoke so it gets sucked up into this filter the laser is moved around on a gantry so that it can cut anywhere on a sheet
+00:23:28 laser cutters are great because they're really easy to design for and cutting stuff out is fast and takes
+00:23:33 almost no work you just load a 2d drawing of what you want to cut in the software
+00:23:39 and hit cut that's it if you're in the market for one of these there's a link in the description that'll get you 500
+00:23:45 off all right who needs a taser when you can have a wrist rocket like this alright ready
+00:23:53 not the most powerful i really like how the low profile articulating pivot came out i think with a couple tweaks it could be
+00:24:00 quite a lot more powerful i think i look like spider-man yep it does look like spider-man's web shooter
+00:24:08 a little bit especially the way you fire it the glass is a lost cause
+00:24:13 i accidentally kind of broke it so it can't even hit the glass from one foot away now
+00:24:21 now for the project that's a real conundrum how the heck am i going to make a catapult on the lathe
+00:24:26 you typically only make round parts on a lathe but i can't think of any examples of catapults that are made out of round parts
+00:24:33 well if you use my definition of catapult i can think of one unfortunately using explosives are
+00:24:40 against my rules so we're going to do everything is basically round and air pressure counts it's basically a spring so i have
+00:24:50 an idea i'm gonna build a launcher that you pump up and then release the pressure with a
+00:24:56 valve to shoot the ball i have two lathes this is my mini lathe which i had in my apartment
+00:25:02 and it is absolutely beaten to death this is the big brother to my mini lathe it's a precision matthews 1440 gt this
+00:25:08 thing is just an absolute joy to use the lathes work by holding whatever it is you want to cut
+00:25:14 in some kind of chuck as the chuck spins you stick various tools into the part to cut material off
+00:25:20 and just like the mill it cuts into the metal like butter there's a ton of different tools that
+00:25:25 you can use in the lathe but the thing that they pretty much all have in common is that they make round
+00:25:30 parts i have an issue with the trigger valve for this launcher although it's possible these parts are
+00:25:35 very difficult to make on a traditional lathe setup did you know a lathe is just a mill on
+00:25:40 its side with some missing parts we can add those parts back now we have a mill
+00:25:50 pretty cool you can do milling with this but you should not put it into a quick change tool post
+00:25:55 it's not stiff and you can potentially damage stuff be smart don't do what i did i was able
+00:25:59 to get this pretty simple the hardest parts to make were the check valves for the pump
+00:26:04 i designed everything to go up to at least a thousand psi but i screwed up the pump
+00:26:10 and i'm way under that you pump this one up a bunch of times can it break the glass that's the
+00:26:25 question no no no yeah won't even break the glass
+00:26:41 you showed me i showed you yeah not a great indoor toy eight yes finally it's twice as good that's
+00:26:49 very satisfying and this is definitely a catapult right well actually
+00:26:55 it's just using the power of the wind rather than the power of i really wasn't sure what the best
+00:27:06 catapult would be to show off my woodworking tools but i've got it i wanted one of my
+00:27:11 catapults to have a wife mode so i'm making a box with a secret catapult in the lid
+00:27:15 when you open the box you won't see anything but then the secret arm will come down and launch a ball
+00:27:20 at you i have all these woodworking tools because they are surprisingly useful for making functional stuff
+00:27:26 aside from that i do zero woodworking this tool right here is a planer it's a dewalt 735 i think inside of it
+00:27:33 there's a spinning set of blades that can remove a thin layer from a piece of wood you put a
+00:27:37 plank of wood in one side and it comes out the other side slightly thinner flat and with a good surface finish my
+00:27:43 main use of this is when i need accurate flat wood for some kind of fixture or when i need to make a big flat piece
+00:27:48 of wood out of small glued together pieces i did this a ton for my crocs project this is my compound miter saw
+00:27:55 this thing is so useful i think this is the first power tool i got for this shop you can cut two by fours you can cut
+00:28:01 smaller pieces of plywood you can cut aluminum i use this on almost every project this machine is a jointer
+00:28:08 and i am absolutely terrified of it this thing will take you from five fingers to zero in the blink of an eye so it has
+00:28:15 a set of spinning blades just like the planer and it removes a thin layer of wood just like the planer but the difference is
+00:28:21 that this is designed to make your wood square so this wood is not square on the side this is an extreme example but you run
+00:28:28 it through the joiner a few times and it's square i'm using a router table to make the
+00:28:32 rabbit joints for the box there's not a whole lot to these they just hold a router in a very dangerous
+00:28:38 mangle your hand upside down position you can also get special bits for deburring and chamfering aluminum and steel
+00:28:45 woodworking machines make a ludicrous amount of dust so i have a central dust collection system that sucks all the
+00:28:50 dust out of all the woodworking machines this is a grizzly 860 dust collector it's centrifugal which is super sweet
+00:28:57 and inside the dust collector it looks like this at the center there's essentially a shop vac
+00:29:02 pulling air in from all directions and this end is open it's where it sucks the dusty air in and
+00:29:07 because the air has mass as it comes in it doesn't go straight into the hole it actually spirals around
+00:29:12 and then goes into the vacuum the sawdust in the air weighs a lot more when it comes flying in it can actually
+00:29:17 make this sharp of a turn so it hits the wall slows down and drops into the collection bin
+00:29:23 the air continues on without the dust in it and gets sucked up into the vacuum the dust that makes it through goes into
+00:29:28 this air filter but it is an absolutely tiny amount of dust which is really good because it
+00:29:34 would otherwise clog this filter which is a huge hassle to deal with if you're looking at getting a dust collector
+00:29:38 i really recommend some kind of centrifugal one assembling the box is just
+00:29:43 straightforward woodworker stuff that i'm not very good at i'm using a magnet to hold the ball on
+00:29:49 the catapult upside down when someone opens this they don't see the arm until it's too late
+00:29:55 i haven't tried to plenty fast ones on my wife in quite a while so i think i should be good check this out
+00:30:02 what's in the box it's my woodworking catapult so smooth ow why would you point it at me
+00:30:22 let's see if we can hit something besides my neck that's not surprising i tried to make
+00:30:28 this one only a nuisance not deadly don't you think we should put this in the guest room whenever we had
+00:30:36 ignoring performance which is your favorite tube tube very satisfying to get in the phone there
+00:30:44 i mean they're all so great it's like it's like choosing a favorite child i knew you were gonna say that i didn't
+00:30:48 say they're my children i'm just saying it's like children i think my favorite is the 3d
+00:30:53 printed one just because the design is unusual all the stacked springs it's like pocketable catapult
+00:30:59 i actually like sheet metal one for the same reason but i wouldn't say it's a good design but it's
+00:31:04 interesting it's not good but it's i think i may have gotten a little bit carried away with all these catapults
+00:31:13 at least a little bit it was a lot of fun though and i hope that you enjoyed it i try really hard to give you a bit
+00:31:17 more than you bargained for with all these videos and if you do enjoy them please consider
+00:31:22 subscribing it helps me out and it'll keep you in the loop when there's some new stuff made here
+00:31:27 and like i said before i designed so many things that i had to gloss over almost all the details i'm planning to
+00:31:33 post more videos going into the details of these on my second channel so check that out if you're interested
+00:31:38 so if you think about what's actually happening here i'm a guy in his basement building catapults for your enjoyment it
+00:31:44 is a very strange time to be alive and the reason i'm able to put so much time into projects like this that are
+00:31:49 kind of pointless but hopefully entertaining and educational is mostly thanks to video sponsors so if
+00:31:55 you want to help ensure that more videos like this get made taking a minute to check out the sponsor
+00:31:59 is very helpful and the sponsor for this video is micro center i'm a huge micro center fanboy the fact
+00:32:04 that they want to sponsor my videos is still amazing and makes me really happy it all comes down to the fact that i'm a nerd i
+00:32:10 do nerd things and i need electronics computers 3d printers and i need them now micro center has all
+00:32:17 that and their prices are really good i built my entire computer from parts from micro center and it was cheaper
+00:32:22 than buying the parts online it's also the only physical store that i know of that i can go buy electronics kits
+00:32:28 if you do anything even tangentially related to nerd stuff you should go visit a micro center
+00:32:33 there's 25 of them across the us take some time to walk around you're going to find stuff that you can't find
+00:32:36 anywhere else and if you do go to one they're doing something i think is a little crazy
+00:32:42 they're going to give you a free pair of bluetooth headphones like totally free so if you're interested in headphones
+00:32:47 all you have to do is click on the link in the description put in your email and they'll give you a
+00:32:52 coupon that you can take to the store and they'll give you a free pair of headphones it's a little crazy they'll give you
+00:32:57 headphones just for visiting but i guess they know the store is great and that you're gonna like it
