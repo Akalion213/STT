@@ -9,9 +9,8 @@ from STTWEBMAIN.search import video_search
 from datetime import datetime
 import ast
 import threading
+import json
 import requests
-import re
-from bs4 import BeautifulSoup
 
 
 def download_subtitles(video_id):
@@ -39,9 +38,7 @@ def add_video_to_db(video_id, response):
     title = video_info['title']
     date = video_info['date']
     channel = video_info['channel']
-
-    x = threading.Thread(target=add_channel, args=(video_id, channel))
-    x.start()
+    add_channel(video_id, channel)
 
     convert_subtitle(response)
     tags = generate_tags(response)
@@ -60,24 +57,30 @@ def add_video_to_search(video_id):
         current_search = video_search(video_id + '.en.txt', search.search)
         if current_search > 0:
             search_results = ast.literal_eval(search.result)
-            new_results = [video_id, current_search, video.date, video.title]
+            print(search_results)
+            new_results = [video_id, current_search, video.date, video.title, video.channel]
+            print('--------------------------------------')
+            print(new_results)
             search_results.append(new_results)
             search.result = search_results
             search.save()
 
 
 def add_channel(video_id, channel):
-    # if not Channels.objects.filter(channel_name=channel).first():
-    # page = requests.get("https://www.youtube.com/results?search_query=" + channel + "&sp=EgIQAg%253D%253D")
-    url = 'https://www.youtube.com/watch?v=' + video_id
-    headers = {'cookie': 'disclaimer=1'}
-    page = requests.get(url, headers=headers)
-    f = open('DUMP.txt', 'w')
-    f.write(str(page.content))
-    link = re.search('<a class=\"yt-simple-endpoint style-scope ytd-video-owner-renderer\" tabindex.+<img id=\"img\".+src=\"([^\"]+)\"', str(page.content), flags=0)
-    # link = re.search('88},{\"url\":\"//([^\"]+)\"', str(page.content), flags=0)
-    print('-----------------------------------------')
-    print(link)
-    profile_img_url = 'https://' + link.group(1).replace('s176', 'IMGSIZE')
-    q = Channels(channel_name=channel, profile_img=profile_img_url)
-    # q.save()
+    if not Channels.objects.filter(channel_name=channel).first():
+        t0 = time.time()
+        API_key = 'AIzaSyA1GSZTEbP_EmJ3NRquxAnHblXhsy5o4_c'
+        request_url_channel_info = 'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics'
+        request_url_video_info = 'https://www.googleapis.com/youtube/v3/videos?id={}&key={}&part=snippet,contentDetails'
+
+        r = requests.get(request_url_video_info.format(video_id, API_key))
+        responseJson = json.loads(r.content)
+        channel_id = responseJson['items'][0]['snippet']['channelId']
+
+        r = requests.get("{}&id={}&key={}".format(request_url_channel_info, channel_id, API_key))
+        responseJson = json.loads(r.content)
+        profile_img_url = (responseJson['items'][0]['snippet']['thumbnails']['default']['url']).replace('s88', 's100')
+        print(profile_img_url)
+        q = Channels(channel_name=channel, profile_img=profile_img_url)
+        q.save()
+        print(time.time() - t0)
