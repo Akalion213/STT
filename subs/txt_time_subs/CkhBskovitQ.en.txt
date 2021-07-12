@@ -1,0 +1,177 @@
+00:00:02 welcome to engineering with rosie i've recently watched veritasium's video on the blackbird vehicle
+00:00:07 it's a strange-looking thing that sort of resembles a wind turbine on a go-kart it's powered by the wind and yet it can
+00:00:14 travel faster than the wind to summarize in case you haven't seen that video yet there is a cart with a
+00:00:19 propeller on it and it's traveling downwind the wheels of the cart turn the propeller which creates thrust that
+00:00:26 pushes the cart along now if you find that hard to believe then you're not the only one
+00:00:33 a ucla physics professor has actually bet veritasium aka derek 10 000 us dollars that traveling downwind faster than the
+00:00:41 wind is not possible there's a contract in everything and the contract was witnessed by
+00:00:47 neil degrassi tyson bill nye and sean carroll so some pretty big names and science there
+00:00:53 so when i watched the video for like a week afterwards my brain actually hurt as i grappled with
+00:00:58 the physics involved and i wanted to make this video to share the extra steps that i use to understand
+00:01:04 how it works so for me i never had a problem believing that it was possible for such a cart to work
+00:01:10 because i know that high performance sailboats tack both upwind and downwind much faster
+00:01:15 than the wind and not only can the sailboat sail faster than the wind
+00:01:20 but its velocity component in the direction of the wind can be much faster than the wind
+00:01:26 i also know that there is an immense amount of power in the wind since i've worked in the wind energy industry for
+00:01:30 the last decade i mean a turbine the size of the propeller on the car could
+00:01:35 definitely easily generate enough power to run a go-kart so it didn't seem like a conceptual leap to me but
+00:01:42 what i didn't understand was how it worked and why it doesn't violate the laws of thermodynamics
+00:01:47 so that's what i'm going to show you in this video including a conceptual design spreadsheet model that i made to play
+00:01:53 around with all the design parameters and see how they relate to each other so i will
+00:01:57 start with explanations in words and i will gradually add maths to it as we progress
+00:02:04 and i will put bookmarks in the description so you can use those to jump around in the order that makes sense to you
+00:02:11 and you will also find a bonus analogy at the very end so keep watching for that okay i'm going to start with the cart
+00:02:18 already moving because the way it works when it's just getting started is totally different to how it works when
+00:02:23 it gets some speed and i think that that adds extra confusion so here's our cart already moving along
+00:02:28 the ground there is some wind moving in the same direction as the cart
+00:02:34 the wheels are turning they're connected to the propeller via a chain and that is causing the propeller
+00:02:39 to rotate it is just a normal propeller design like you'd see on a model aeroplane or
+00:02:45 whatever only it's a lot bigger and the way that a propeller works is that when you rotate it it accelerates
+00:02:52 air through the rotor and generates a thrust force so i'll get further into the
+00:02:56 aerodynamics and how the thrust is created later but conceptually it basically pushes the
+00:03:01 air backwards in the same way as like if you were riding a bike in traffic
+00:03:07 you could push off a car side mirror to make yourself go faster i wouldn't recommend that because
+00:03:13 drivers do get very angry when cyclists do stuff like that but you can imagine that even if the car is moving
+00:03:20 you can move faster than the car by pushing off it in the same way the propeller can move
+00:03:24 faster than the air that it's pushing on so the propeller's thrust pushes the cart along
+00:03:31 and as long as the wheels don't slip on the ground they will rotate as the cart moves forward
+00:03:36 and since they're connected via a chain to the propeller they turn the propeller so we have
+00:03:42 thrust from the propeller moving the card forward minus some drag and frictional forces
+00:03:47 and as long as we're getting enough power from the wheels to power the cart's forward motion the
+00:03:52 wheels will keep turning the prop and the thrust for the prop makes the cart go forward
+00:03:58 so far so good or maybe not does this sound like i'm saying the wheels power the prop and then the pro
+00:04:04 powers the wheels so not quite the wheels turn the prop but they don't power it remember the car
+00:04:10 is not a closed system the ground and or the wind are moving by constantly but what about when they're traveling
+00:04:16 exactly at wind speed so they see no relative wind speed at all well at that point there's no motion
+00:04:23 of the car relative to the wind but there is motion relative to the ground the wheels are turning so the prop is
+00:04:30 turning so it's generating thrust it might help to think of it not being as wind powered but rather being powered
+00:04:36 by the difference between the wind speed and the ground speed so at this point you might be wondering
+00:04:42 why don't the wheels put more drag on the propeller than it needs to move forward and this is a question that i need to
+00:04:48 answer with maths and aerodynamics so i will come back to that later all right so what about the energy balance it's all
+00:04:55 well and good to say that energy comes from the wind but how since the wind's energy is due
+00:05:02 to the kinetic energy of all the moving air particles if we're extracting energy from the wind
+00:05:06 the wind must slow down but we also know that the propeller works by accelerating air across the rotor
+00:05:15 so it must speed up it's a paradox except it's not it's all just a matter of perspective
+00:05:21 from the perspective of someone standing on the ground the air slows down across the propeller and from the perspective
+00:05:27 of the cart driver the air speeds up across the propeller and it sounds like a paradox but it's not if
+00:05:34 we go through with some very simple numbers we can show that there's nothing weird going on here
+00:05:40 so let's say i'm driving the cart moving at 12 meters per second relative to the ground and i have a 10 meter per second
+00:05:46 tailwind relative to the ground so i see a two meter per second headwind and the propeller accelerates air
+00:05:52 through its rotor to let's say four meters per second so the air's accelerated from two to four meters per
+00:05:59 second and so as a result there will be a thrust force from my reference point in the cart it's
+00:06:03 all very easy to understand but now let's step outside the cart onto the ground so
+00:06:09 now we feel a tailwind of 10 meters per second and we see the cart moving away at 12 meters per second relative to us so
+00:06:17 we need to subtract that 12 meters per second from what the car driver experienced to
+00:06:21 translate it to what we're seeing so the car driver's two meters per second headwind minus the 12 meters per
+00:06:28 second cut speed is a 10 meters per second tailwind like we expect and the cart drivers 4 meters per second
+00:06:33 air behind the prop minus 12 meters per second is an eight meters per second tailwind
+00:06:39 slower than the wind on the other side of the cart because some energy has been extracted from e the
+00:06:46 frame the wind was accelerated two meters per second to the left so it's accelerated by two meters per
+00:06:52 second in the cart frame but decelerated by two meters per second in the ground frame
+00:06:58 we get more thrust from the prop than we impose drag on the wheels since the wheels are moving over the
+00:07:03 ground faster than the prop is moving through the air just like a lever we trade a small force
+00:07:10 over a large distance the wheels moving over the ground for a larger force over a smaller
+00:07:15 distance the prop moving through the air so that is the energy balance part the paradox is simply galilean relativity
+00:07:23 all right so in the previous sections i assumed the cart is already moving but of course in reality the cart starts
+00:07:29 off stationary and has to somehow get up to speed and the way that happens is totally
+00:07:34 different to the way that it accelerates beyond the speed of the tailwind so when the cart is at rest it has a 10
+00:07:41 meter per second tailwind behind it and that wind pushes on it and gets it moving it's just like riding a bike with the
+00:07:48 wind behind you it'll push you along even if you're not pedaling but you'll never go faster than the wind
+00:07:53 this way because the faster you go the less wind there is from your perspective so once the wheels are
+00:07:59 turning the propeller starts turning but not from the force of the wind or the blades as if it were a wind turbine
+00:08:07 instead of taking incoming wind and converting it to rotation like a wind turbine does
+00:08:11 it takes rotation from the wheels and converts it to faster wind out the back any time the wheels are turning the prop
+00:08:18 is turning unless the chain falls off and if the prop is turning
+00:08:23 it's accelerating air behind it and generating thrust so once the cart and its propeller are
+00:08:29 traveling close to the speed of wind it's no longer pushed by the wind on the back it gets
+00:08:35 turned by the wheels and then the speed that the propeller sees its relative wind speed
+00:08:42 is mostly from its rotational speed which can be much faster than the wind this doesn't happen
+00:08:48 all at once as we hit the wind speed the torque from the prop increases gradually from the moment the
+00:08:54 wheels start turning and the relative wind flows over the propeller and creates a lift force
+00:09:01 if the blades are 2.4 meters long and rotating at just 1.1 revolutions per second then the
+00:09:08 blade tips are moving at 17.2 meters per second which is 62 kilometers an hour or 38 miles per hour
+00:09:16 so the blade sees a very fast wind speed and furthermore the lift force that's created by air moving over the aerofoil
+00:09:23 is much stronger than the drag force that pushed the back of the cart at the start so this is really similar to the reason
+00:09:30 why modern wind turbines generate a lot more power than the old-fashioned ones okay let's talk more about how a
+00:09:36 propeller works our propeller is just like a rotating aeroplane wing or a rotating sailboat as we saw in the
+00:09:41 original video when air flows over a profile at an angle it causes high pressure on the
+00:09:46 bottom and low pressure on the top which results in a lift force acting perpendicular to the airflow
+00:09:53 and a drag force acting parallel and for small angles of attack the lift force is much larger than the
+00:09:58 drag force the lift force depends on the shape of the airfoil
+00:10:04 the angle of attack and the relative or apparent wind speed that's the airflow from the perspective
+00:10:09 of the aerofoil to find the relative wind speed for a cruising airplane you would need to add the wind speed and
+00:10:15 direction to the aeroplane's own speed and direction and the angle of attack is just the
+00:10:20 angle of the wing relative to the airflow the lift force lifts the plane perpendicular to the relative airflow
+00:10:27 and the drag force slows it parallel to the relative airflow so now let's take this same analysis
+00:10:32 onto the propeller which is slightly more complicated because it's rotating so the tip of the propeller is like a
+00:10:39 wing but it's constrained to rotate around an axis so it sees relative wind that's a
+00:10:43 combination of the the wind that the cart sees and also the speed due to its own rotation
+00:10:50 the lift force created by the propeller has a component that pushes the cart along a thrust force
+00:10:55 and a component that wants to slow the rotation a torque that's the force that needs to be
+00:11:00 provided by the wheels turning okay are you still with me now i'm going to take you through
+00:11:05 some maths and a spreadsheet model that i made to go through a realistic of kind of realistic conceptual design
+00:11:13 so the propeller blade has a complicated geometry it's twisted and tapered but we can simplify the analysis by splitting
+00:11:20 it into a lot of small pieces each piece is small enough that the pitch and cord don't change much over
+00:11:26 any given piece this is a blade element method and it's not 100 accurate because i'm ignoring
+00:11:32 things like the inflow so we're going to overestimate thrust a bit but it is a really great way to
+00:11:37 visualize what's going on so we calculate the apparent wind speed and angle
+00:11:43 the lift and drag forces in each section when you add all these up you get the thrust force for the whole propeller
+00:11:50 and we need to multiply the tangential force by the radius to get the torque components which will add up to the total torque so
+00:11:58 i have tried to roughly copy the blackbird design here at the time that it set its record of
+00:12:03 2.8 times wind speed i have the actual propeller design and i estimated the other relevant parameters
+00:12:10 so there are a lot of parameters here and you can definitely tweak them to get a really wide variety of results
+00:12:16 so i don't want you to think that i'm trying to say that this spreadsheet models proves that the cart
+00:12:22 design works it only kind of shows how it works and what happens when we change various
+00:12:26 aspects of the design or the conditions a little bit so when we take a look at a single section
+00:12:32 about three quarters of the way along the blade you can see that the relative wind speed that the aerofoil sees is
+00:12:38 much faster than the tailwind and the lift force is much much much larger than the drag force because
+00:12:45 we're using a really nice aerodynamic profile and even the component of the lift force in the direction to push the cart along
+00:12:53 the thrust component is a lot bigger than the component that's trying to slow the blade's rotation the
+00:12:59 torque component that's the part that needs to come from the wheels so with these conditions my very simple
+00:13:04 model gives a gives me a balance between the power from the prop and everything that's
+00:13:08 slowing it down including the drag from the wheels which is what we would expect if the cart is
+00:13:14 at its max speed if there was excess power from the prop we would speed up
+00:13:21 and if there isn't enough power then we'd slow down or actually we would never have even gotten
+00:13:26 to that speed if we increase the cart speed the rotational speed increases and the
+00:13:33 relative wind speed moves closer to the direction of rotation decreasing the angle of attack so we
+00:13:38 need to twist the blade to get the angle of attack more similar to what it was at the
+00:13:43 slower cut speed and that does increase the thrust compared to the slower moving cart
+00:13:50 however it also increases the drag and now we don't have enough thrust from the wheels to power the prop and overcome
+00:13:55 the drag if we could reduce the drag by decreasing the frontal area say
+00:14:01 we could increase our maximum speed all right so now let's slow down to wind speed so we have zero headwind but
+00:14:08 the prop is still rotating because the wheels are now the airflow their propeller sees is
+00:14:13 entirely from its rotation we need to twist the blade back the other way so the angle of attack gives
+00:14:18 us good performance and you can see that even with zero tailwind or headwind
+00:14:24 we still have power from the propeller to accelerate the cart there's nothing weird about that it's
+00:14:30 just like an aeroplane's propeller being used to get the plane started from stationary in that case the motor will
+00:14:37 make their propeller turn and in our case we have the chain connected to the wheels which are
+00:14:43 turning because the cart is moving okay and now finally slower again to half of the wind speed
+00:14:48 now most of the power to accelerate the cart comes from the drag force of the tailwind pushing on the cart the
+00:14:55 propeller is still generating thrust but not much so those were the analyses that i used to understand the problem
+00:15:02 but i have noticed that different people find different explanations useful so if none of this worked for you then i
+00:15:08 suggest that you take a look at this presentation that the designer rick cavallaro made where
+00:15:14 he runs through a whole bunch of other analogies i have been kind of embarrassingly obsessed with this problem over the last
+00:15:20 few weeks i think it's a bit similar to that physics brain teaser if you have a jet
+00:15:26 plane on a treadmill that's moving the exact same speed as the plane's wheels can it ever take off but in my opinion the
+00:15:33 downwind faster than the wind brain teaser is way cooler because you can actually just make it to resolve
+00:15:38 the problem so i want to give a huge thank you to rick cavallaro for not just coming up
+00:15:44 with this design and and tirelessly defending it on the internet but especially because he actually
+00:15:51 followed through and made the thing so i think you can learn a lot from these kinds of fun engineering problems
+00:15:56 and if you are interested in that sort of thing then check out this video where i made a functioning wind turbine
+00:16:03 out of gingerbread please comment if you've got another video idea for me and if you want to become part of their
+00:16:09 engineering with rosie community and help shape the future direction of the channel then you could join us on patreon i've
+00:16:16 also got lots of other videos about more mainstream renewable energy technologies on my channel
+00:16:21 so take a look at them and i'll see you okay so here is your bonus analogy which didn't really fit in the main video but
+00:16:35 i wanted to include it anyway did you notice that when the cart was going faster we needed to
+00:16:41 increase the pitch of the propeller and when it was going slower we needed to decrease it
+00:16:46 this reminded me of another way that you can think of a propeller so instead of thinking of it like an
+00:16:51 aeroplane wing like we just did we can think of it like a screw when you screw into a wall your
+00:16:57 hand moves a lot more than the screw does but it takes a smaller force from your hand than it would to
+00:17:02 you know just press the screw into the wall if you increase the pitch on a screw you'll travel further into the wall with
+00:17:09 each turn but it will be harder and vice versa so a propeller does something similar
+00:17:15 it's easy to visualize if you imagine the propeller working in say hard butter instead of air since the
+00:17:22 butter is so thick the propeller won't slip and the propeller just acts like a lever to turn a small
+00:17:27 force over a large distance into a large force over a small distance so that's what happens as long as it's
+00:17:32 not slipping but now imagine the butter a little bit softer and when you
+00:17:38 turn the propeller you'll get some slip between the propeller and the butter so each term will move the propeller a
+00:17:44 little bit less than pure geometry would suggest that's how it is with a propeller in air each turn of the probe moves it forwards

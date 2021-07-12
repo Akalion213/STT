@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from .models import Videos, Searches, Stats, Channels
-from .search import video_deep_search, video_search_all_test, video_deep_search_details
+from .search import video_deep_search, video_search_all, video_deep_search_details
 from .downloader import add_video_to_db, download_subtitles
-from .tagging import calculate_top_tags
+from .tagging import calculate_top_tags, generate_similar_by_tags
 import time
 import ast
 from .util import *
@@ -12,6 +12,7 @@ from django.core.paginator import Paginator
 from django.shortcuts import redirect
 import requests
 import json
+from datetime import datetime, timedelta
 
 
 def search(request):
@@ -48,11 +49,13 @@ def search(request):
             videos_list.append(video.video_id)
             videos_list.append(video.tags)
 
+        search = search.split(',')
+        print(search)
         if sort_by == 'date':
-            search_results = sorted(video_search_all_test(search, 'all'),
+            search_results = sorted(video_search_all(search, 'all'),
                                     key=sort_results_by_date, reverse=True)
         else:
-            search_results = sorted(video_search_all_test(search, 'all'),
+            search_results = sorted(video_search_all(search, 'all'),
                                     key=sort_results_by_occurrences, reverse=True)
 
         if request.GET.get('exclude_dnd'):
@@ -99,7 +102,7 @@ def detailed(request):
         similar_videos_full = []
         video_id = request.GET.get('video_id')
         video = Videos.objects.filter(video_id=video_id).first()
-        similar_videos = json.loads(video.similar_videos)
+        similar_videos = get_similar_videos(video)
         search_detailed_tags = json.loads(video.tags)
 
         for similar_vid in similar_videos:
@@ -206,3 +209,16 @@ def channel(request, channel_name):
         total_videos = videos.count()
         context['total_videos'] = total_videos
     return render(request, 'channel.html', context)
+
+
+def get_similar_videos(video):
+    if datetime.now() - video.similar_videos_updated.replace(tzinfo=None) > timedelta(minutes=10):
+        similar_videos = generate_similar_by_tags(video.video_id)
+        similar_videos = json.loads(similar_videos)
+        video.similar_videos = json.dumps(similar_videos)
+        video.similar_videos_updated = datetime.now().replace(microsecond=0)
+        video.save()
+    else:
+        similar_videos = json.loads(video.similar_videos)
+
+    return similar_videos

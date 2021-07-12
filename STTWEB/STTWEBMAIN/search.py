@@ -47,13 +47,14 @@ def video_deep_search_details(results):
     return final_results
 
 
-def video_search_all_test(search_term, channel):
+def video_search_all(search_term, channel):
     from STTWEBMAIN.models import Videos, Searches
 
     STT_dir = dirname(dirname(dirname((abspath(__file__)))))
     txt_time_sub_directory = os.path.join(STT_dir, 'subs/txt_time_subs')
 
-    search = search_term.lower()
+    search = [x.lower() for x in search_term]
+    print(search)
     results = []
     Continue = True
     Write = True
@@ -87,15 +88,23 @@ def video_search_all_test(search_term, channel):
 
 
 def video_search(filename, search):
-    results = []
-    search = search.lower()
     txt_time_sub_dir = os.path.join(dirname(dirname(dirname((abspath(__file__))))), 'subs/txt_time_subs/')
     with open(os.path.join(txt_time_sub_dir, filename), encoding="utf8") as f:
         content = f.read().lower()
 
-    if search in content:
-        results = content.count(search)
+    if len(search) == 1:
+        search = search[0].lower()
+        if search in content:
+            results = content.count(search)
+        else:
+            results = 0
     else:
+        search = [x.lower() for x in search]
         results = 0
+        for search_term in search:
+            if search_term in content:
+                results += content.count(search_term)
+            else:
+                results = 0
 
     return results

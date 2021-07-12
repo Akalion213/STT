@@ -62,15 +62,15 @@ def add_video_to_search(video_id):
 def add_channel(video_id, channel):
     channel_to_add = Channels.objects.filter(channel_name=channel).first()
     if not channel_to_add:
-        API_key = ApiKeys.objects.filter().first().api_key
+        api_key = ApiKeys.objects.filter().first().api_key
         request_url_channel_info = 'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics'
         request_url_video_info = 'https://www.googleapis.com/youtube/v3/videos?id={}&key={}&part=snippet,contentDetails'
 
-        r = requests.get(request_url_video_info.format(video_id, API_key))
+        r = requests.get(request_url_video_info.format(video_id, api_key))
         response_json = json.loads(r.content)
         channel_id = response_json['items'][0]['snippet']['channelId']
 
-        r = requests.get("{}&id={}&key={}".format(request_url_channel_info, channel_id, API_key))
+        r = requests.get("{}&id={}&key={}".format(request_url_channel_info, channel_id, api_key))
         response_json = json.loads(r.content)
         profile_img_url = (response_json['items'][0]['snippet']['thumbnails']['default']['url']).replace('s88', 's100')
         q = Channels(channel_name=channel, profile_img=profile_img_url)

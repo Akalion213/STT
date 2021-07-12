@@ -8,7 +8,7 @@ import subprocess
 class Command(BaseCommand):
 
     def handle(self, *args, **options):
-        playlist = ''
+        playlist = 'UU554eY5jNUfDq3yDOJYirOQ'
 
         response1 = str(subprocess.Popen(
             ["youtube-dl", "--ignore-errors", "--get-id", playlist, '--playlist-start', '1', '--playlist-end', '10'],

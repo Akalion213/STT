@@ -285,7 +285,6 @@ def generate_similar_by_tags(video_id):
 
 
 def calculate_top_tags(channel):  # db object
-    t0 = time.time()
     tags_all = {}
     videos = Videos.objects.filter(channel=channel.channel_name, downloaded=1).all()
     video_count = videos.count()
@@ -317,4 +316,4 @@ def calculate_top_tags(channel):  # db object
     chan = channel
     chan.top_tags = json.dumps(top_tags[:10])
     chan.save()
-    print('LLLLLLLLLLLLLLLLLLLLLLLLLLL', time.time() - t0)
+
