@@ -6,7 +6,6 @@ from STTWEBMAIN.vtt_to_txt_test import convert_subtitle, get_sub_info
 from STTWEBMAIN.tagging import generate_tags, generate_similar_by_tags
 from STTWEBMAIN.search import video_deep_search, video_search
 import time
-import ast
 from datetime import datetime, timedelta
 
 
@@ -49,7 +48,7 @@ class Command(BaseCommand):
                     for search in searches:
                         current_search = video_search(video_id + '.en.txt', search.search)
                         if current_search > 0:
-                            search_results = ast.literal_eval(search.result)
+                            search_results = json.loads(search.result)
                             new_results = [video_id, current_search, video.date, video.title]
                             search_results.append(new_results)
                             search.result = search_results

@@ -8,8 +8,6 @@ import time
 class Command(BaseCommand):
 
     def handle(self, *args, **options):
-        t0 = time.time()
-        videos = Videos.objects.filter(downloaded=1)
-        print(videos)
-        print(time.time() - t0)
+        print(generate_tags('8V2b4YGr2sA.en.txt'))
+
 

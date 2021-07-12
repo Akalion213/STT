@@ -6,7 +6,6 @@ from STTWEBMAIN.tagging import generate_tags, generate_similar_by_tags, calculat
 from STTWEBMAIN.vtt_to_txt_test import get_sub_info, convert_subtitle
 from STTWEBMAIN.search import video_search
 from datetime import datetime
-import ast
 import json
 import requests
 
@@ -52,7 +51,7 @@ def add_video_to_search(video_id):
     for search in searches:
         current_search = video_search(video_id + '.en.txt', search.search)
         if current_search > 0:
-            search_results = ast.literal_eval(search.result)
+            search_results = json.loads(search.result)
             new_results = [video_id, current_search, video.date, video.title, video.channel]
             search_results.append(new_results)
             search.result = search_results

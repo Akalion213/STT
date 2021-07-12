@@ -1,6 +1,6 @@
 import os
 from os.path import dirname, abspath
-import ast
+import json
 
 # profile_image_url = dirname((abspath(__file__))) + '\\static\\profile\\'
 
@@ -61,7 +61,7 @@ def video_search_all(search_term, channel):
 
     if Searches.objects.filter(search=search, channel=channel).exists():  # if search already in database pull the results
         results = Searches.objects.filter(search=search, channel=channel).first()
-        results = ast.literal_eval(results.result)
+        results = json.loads(results.result)
         Continue = False  # Don't search files
         Write = False  # Don't save the results to database
 
@@ -78,13 +78,13 @@ def video_search_all(search_term, channel):
                 results.append(temp_result)
 
         if Write:
-            q = Searches(search=search, result=results, channel=channel)
+            q = Searches(search=search, result=json.dumps(results), channel=channel)
             q.save()
 
     search_db = Searches.objects.filter(search=search, channel=channel).first()
     search_db.times_searched += 1
     search_db.save()
-    return results
+    return json.dumps(results)
 
 
 def video_search(filename, search):

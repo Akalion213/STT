@@ -4,7 +4,6 @@ from .search import video_deep_search, video_search_all, video_deep_search_detai
 from .downloader import add_video_to_db, download_subtitles
 from .tagging import calculate_top_tags, generate_similar_by_tags
 import time
-import ast
 from .util import *
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -50,12 +49,12 @@ def search(request):
             videos_list.append(video.tags)
 
         search = search.split(',')
-        print(search)
+
         if sort_by == 'date':
-            search_results = sorted(video_search_all(search, 'all'),
+            search_results = sorted(json.loads(video_search_all(search, 'all')),
                                     key=sort_results_by_date, reverse=True)
         else:
-            search_results = sorted(video_search_all(search, 'all'),
+            search_results = sorted(json.loads(video_search_all(search, 'all')),
                                     key=sort_results_by_occurrences, reverse=True)
 
         if request.GET.get('exclude_dnd'):
@@ -68,7 +67,7 @@ def search(request):
             if int(date_selection[0]) <= int(result[2]) <= int(date_selection[1]):
                 search_results_number_total += result[1]
                 result_id_in_videos_list = videos_list.index(result[0])
-                result.append(ast.literal_eval(videos_list[result_id_in_videos_list + 1])[:10])
+                result.append(json.loads(videos_list[result_id_in_videos_list + 1])[:10])
                 try:
                     result.append(Channels.objects.filter(channel_name=result[4]).first().profile_img)
                 except AttributeError:

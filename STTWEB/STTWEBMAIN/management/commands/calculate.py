@@ -5,7 +5,6 @@ import os
 import time
 import requests
 import random
-import ast
 import json
 from operator import itemgetter
 
